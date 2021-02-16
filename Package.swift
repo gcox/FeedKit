@@ -12,6 +12,7 @@ let package = Package(
     ],
     products: [
         .library(name: "FeedKit", targets: ["FeedKit"]),
+        .library(name: "FeedKitDynamic", type: .dynamic, targets: ["FeedKit"]),
     ],
     targets: [
         .target(name: "FeedKit", dependencies: []),
